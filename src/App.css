@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --blue-color: #4848dc;
+  --red-color: #e74c3c;
+  --blueviolet-color: blueviolet;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search-anime-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.search-feild {
+  width: 50rem;
+  padding: 1.3rem;
+  border-radius: 1.5rem;
+}
+
+
+.anime-upper-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/1c/e0/69/1ce069d12377664d4780ff8f5653d60a.png");
+}
+
+.anime-lower-container {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.anime-item {
+  width: 80%;
+  margin: 2.3rem;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.anime-container {
+  display: flex;
+  gap: 2rem 2rem;
+  padding: 1rem;
+
+}
+
+.anime-content {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.anime-heading {
+  font-size: 2rem;
+}
+
+.nicknames {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.page-heading {
   color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.found-length {
+  margin: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: var(--blue-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.favorites {
+  display: flex;
+  padding: 2rem;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.favorites-icon {
+  color: var(--red-color);
+}
+
+.icons {
+  display: flex;
+  gap: 4rem;
+}
+
+.rightArrow {
+  padding: 2rem;
+  border-left: 1px solid black;
+}
+
+.arrow-icon {
+  font-size: 3rem;
+  color: var(--blueviolet-color);
+  font-weight: bold;
+}
+
+.search-icon {
+  font-size: 2rem;
+  position: relative;
+  top: 3rem;
+  left: 22rem;
 }
