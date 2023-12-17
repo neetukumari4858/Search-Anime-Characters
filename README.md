@@ -19,7 +19,9 @@ Live Deployed Link: https://serene-marigold-935064.netlify.app/
    - By default, the page shows the top 15 characters if the user did not
      search anything
      
-![view](file:///home/dell/Pictures/Screenshots/animeImage.png)
 
 
+## Screenshorts
+
+![Screenshot from 2023-12-17 17-40-00](https://github.com/neetukumari4858/Search-Anime-Characters/assets/90403664/65a9e57a-809d-477b-a765-016a86f458f9)
 
