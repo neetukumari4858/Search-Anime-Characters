@@ -19,7 +19,7 @@ Live Deployed Link: https://serene-marigold-935064.netlify.app/
    - By default, the page shows the top 15 characters if the user did not
      search anything
      
+![view](file:///home/dell/Pictures/Screenshots/animeImage.png)
 
-file:///home/dell/Pictures/Screenshots/animeImage.png
 
 
